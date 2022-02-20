@@ -4,5 +4,11 @@
 
   "item.soetchores.lirium_ingot": "Lirium Ingot",
 
+  "item.soetchores.lirium_sword": "Lirium Sword",
+  "item.soetchores.lirium_pickaxe": "Lirium Pickaxe",
+  "item.soetchores.lirium_axe": "Lirium Axe",
+  "item.soetchores.lirium_shovel": "Lirium Shovel",
+  "item.soetchores.lirium_hoe": "Lirium Hoe",
+
   "itemGroup.soModTab": "Soetch Ores"
 }

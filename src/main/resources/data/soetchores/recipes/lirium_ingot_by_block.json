@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soetchores:lirium_block"
+    }
+  ],
+  "result": {
+    "item": "soetchores:lirium_ingot",
+    "count": 9
+  }
+}
