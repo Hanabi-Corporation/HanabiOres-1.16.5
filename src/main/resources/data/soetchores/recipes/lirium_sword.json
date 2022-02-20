@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "soetchores:lirium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soetchores:lirium_sword"
+  }
+}
