@@ -7,6 +7,8 @@ This project is under development, star it to have the latest infos ! (Those who
 
 ## Collaborators
 The collaborators are :
-> Marceau Malégeant (https://github.com/soetch)
+> Marceau Malégeant (https://github.com/soetch) (Lead Programmer)
+
+> Boydane (https://github.com/Boydane) (Texture Graphist)
 
 > *Maybe you ?*
