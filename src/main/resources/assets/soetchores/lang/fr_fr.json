@@ -4,5 +4,11 @@
 
   "item.soetchores.lirium_ingot": "Lingot de Lirium",
 
+  "item.soetchores.lirium_sword": "Epée en Lirium",
+  "item.soetchores.lirium_pickaxe": "Pioche en Lirium",
+  "item.soetchores.lirium_axe": "Hache en Lirium",
+  "item.soetchores.lirium_shovel": "Pelle en Lirium",
+  "item.soetchores.lirium_hoe": "Houe en Lirium",
+
   "itemGroup.soModTab": "Soetch Ores"
 }

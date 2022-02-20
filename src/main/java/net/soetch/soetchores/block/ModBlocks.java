@@ -19,14 +19,14 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    // Register blocks here
-    // Liriam Ore
+    /* This section registers the Ores */
     public static final RegistryObject<Block> LIRIUM_ORE = registerBlock("lirium_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5f)));
 
-    // Liriam Block
+    /* This section registers the Blocks */
     public static final RegistryObject<Block> LIRIUM_BLOCK = registerBlock("lirium_block", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(7f)));
 
-    // End of registering
+
+    // Registers the blocks
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
 
@@ -35,10 +35,12 @@ public class ModBlocks {
         return toReturn;
     }
 
+    // Registers the blockItems (the inInventory look of blocks)
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     }
 
+    // Adds the Blocks to the eventBus
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
