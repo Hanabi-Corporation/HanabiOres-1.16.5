@@ -10,5 +10,10 @@
   "item.soetchores.lirium_shovel": "Pelle en Lirium",
   "item.soetchores.lirium_hoe": "Houe en Lirium",
 
+  "item.soetchores.lirium_helmet": "Casque en Lirium",
+  "item.soetchores.lirium_chestplate": "Plastron en Lirium",
+  "item.soetchores.lirium_leggings": "Jambières en Lirium",
+  "item.soetchores.lirium_boots": "Bottes en Lirium",
+
   "itemGroup.soModTab": "Soetch Ores"
 }

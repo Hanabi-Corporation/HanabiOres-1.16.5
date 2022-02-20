@@ -1,5 +1,6 @@
 package net.soetch.soetchores.item;
 
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -14,6 +15,23 @@ public class ModItems {
     public static final RegistryObject<Item> LIRIUM_INGOT = ITEMS.register("lirium_ingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     /* End of the Ingots */
+
+    /* This section registers the Armors */
+    // Lirium Armor
+    public static final RegistryObject<Item> LIRIUM_HELMET = ITEMS.register("lirium_helmet",
+            () -> new ArmorItem(ModArmorMaterial.LIRIUM, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> LIRIUM_CHESTPLATE = ITEMS.register("lirium_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.LIRIUM, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> LIRIUM_LEGGINGS = ITEMS.register("lirium_leggings",
+            () -> new ArmorItem(ModArmorMaterial.LIRIUM, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> LIRIUM_BOOTS = ITEMS.register("lirium_boots",
+            () -> new ArmorItem(ModArmorMaterial.LIRIUM, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
+    /* End of the Armors*/
 
     /* This section registers the Lirium Tools. */
     public static final RegistryObject<Item> LIRIUM_SWORD = ITEMS.register("lirium_sword",
