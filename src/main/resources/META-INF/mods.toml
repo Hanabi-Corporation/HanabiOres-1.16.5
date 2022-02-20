@@ -29,15 +29,16 @@ displayURL="https://github.com/Soetch/SoetchOres-1.16.5" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Your credits." #optional
+#credits="Your credits." #optional
 # A text field displayed in the mod UI
-authors="Soetch" #optional
+authors="Soetch, Boydane" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
 A Template for Minecraft Modding by Soetch. Please modify the mods.toml to make this template yours.
 
 Credits :
 Mod created with the SNMT Template (https://github.com/Soetch/SoetchNoModTemplate-1.16.5) by Soetch.
+Textures by Boydane and Soetch.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.soetchores]] #optional

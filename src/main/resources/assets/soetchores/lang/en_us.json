@@ -10,5 +10,10 @@
   "item.soetchores.lirium_shovel": "Lirium Shovel",
   "item.soetchores.lirium_hoe": "Lirium Hoe",
 
+  "item.soetchores.lirium_helmet": "Lirium Helmet",
+  "item.soetchores.lirium_chestplate": "Lirium Chestplate",
+  "item.soetchores.lirium_leggings": "Lirium Leggings",
+  "item.soetchores.lirium_boots": "Lirium Boots",
+
   "itemGroup.soModTab": "Soetch Ores"
 }
