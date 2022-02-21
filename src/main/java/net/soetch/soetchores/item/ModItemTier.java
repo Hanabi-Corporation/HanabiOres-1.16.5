@@ -11,6 +11,9 @@ public enum ModItemTier implements IItemTier {
     /* This section registers the materials (aka ItemTiers) */
     LIRIUM(2, 400, 7.0F, 2.5F, 12, () -> {
         return Ingredient.fromItems(ModItems.LIRIUM_INGOT.get());
+    }),
+    AMATITE(2, 750, 8.5f, 4f, 16, () -> {
+        return Ingredient.fromItems(ModItems.AMATITE_INGOT.get());
     });
     /* End of ItemTiers */
 

@@ -1,14 +1,21 @@
 {
   "block.soetchores.lirium_ore": "Minerai de Lirium",
   "block.soetchores.lirium_block": "Bloc de Lirium",
+  "block.soetchores.amatite_ore": "Minerai d'Amatite",
 
   "item.soetchores.lirium_ingot": "Lingot de Lirium",
+  "item.soetchores.amatite_ingot": "Lingot d'Amatite",
 
   "item.soetchores.lirium_sword": "Epée en Lirium",
   "item.soetchores.lirium_pickaxe": "Pioche en Lirium",
   "item.soetchores.lirium_axe": "Hache en Lirium",
   "item.soetchores.lirium_shovel": "Pelle en Lirium",
   "item.soetchores.lirium_hoe": "Houe en Lirium",
+  "item.soetchores.amatite_sword": "Epée en Amatite",
+  "item.soetchores.amatite_pickaxe": "Pioche en Amatite",
+  "item.soetchores.amatite_axe": "Hache en Amatite",
+  "item.soetchores.amatite_shovel": "Pelle en Amatite",
+  "item.soetchores.amatite_hoe": "Houe en Amatite",
 
   "item.soetchores.lirium_helmet": "Casque en Lirium",
   "item.soetchores.lirium_chestplate": "Plastron en Lirium",

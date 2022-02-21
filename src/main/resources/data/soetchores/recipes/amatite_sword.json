@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " L ",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "soetchores:amatite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soetchores:amatite_sword"
+  }
+}

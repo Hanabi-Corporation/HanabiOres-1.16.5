@@ -21,6 +21,7 @@ public class ModBlocks {
 
     /* This section registers the Ores */
     public static final RegistryObject<Block> LIRIUM_ORE = registerBlock("lirium_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(5f)));
+    public static final RegistryObject<Block> AMATITE_ORE = registerBlock("amatite_ore", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(6f)));
 
     /* This section registers the Blocks */
     public static final RegistryObject<Block> LIRIUM_BLOCK = registerBlock("lirium_block", () -> new Block(AbstractBlock.Properties.create(Material.ROCK).harvestLevel(2).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(7f)));

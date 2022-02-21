@@ -1,14 +1,21 @@
 {
   "block.soetchores.lirium_ore": "Lirium Ore",
   "block.soetchores.lirium_block": "Lirium Block",
+  "block.soetchores.amatite_ore": "Amatite Ore",
 
   "item.soetchores.lirium_ingot": "Lirium Ingot",
+  "item.soetchores.amatite_ingot": "Amatite Ingot",
 
   "item.soetchores.lirium_sword": "Lirium Sword",
   "item.soetchores.lirium_pickaxe": "Lirium Pickaxe",
   "item.soetchores.lirium_axe": "Lirium Axe",
   "item.soetchores.lirium_shovel": "Lirium Shovel",
   "item.soetchores.lirium_hoe": "Lirium Hoe",
+  "item.soetchores.amatite_sword": "Amatite Sword",
+  "item.soetchores.amatite_pickaxe": "Amatite Pickaxe",
+  "item.soetchores.amatite_axe": "Amatite Axe",
+  "item.soetchores.amatite_shovel": "Amatite Shovel",
+  "item.soetchores.amatite_hoe": "Amatite Hoe",
 
   "item.soetchores.lirium_helmet": "Lirium Helmet",
   "item.soetchores.lirium_chestplate": "Lirium Chestplate",
