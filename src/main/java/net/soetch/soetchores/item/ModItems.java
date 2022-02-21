@@ -14,6 +14,8 @@ public class ModItems {
     /* This section registers the Ingots */
     public static final RegistryObject<Item> LIRIUM_INGOT = ITEMS.register("lirium_ingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> AMATITE_INGOT = ITEMS.register("amatite_ingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     /* End of the Ingots */
 
     /* This section registers the Armors */
@@ -54,6 +56,27 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.LIRIUM,-2, 0f,
                     new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     /* End of the Lirium Tools */
+    /* This section registers the Amatite Tools. */
+    public static final RegistryObject<Item> AMATITE_SWORD = ITEMS.register("amatite_sword",
+            () -> new SwordItem(ModItemTier.LIRIUM,6, -2f,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
+    public static final RegistryObject<Item> AMATITE_PICKAXE = ITEMS.register("amatite_pickaxe",
+            () -> new PickaxeItem(ModItemTier.LIRIUM,1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
+    public static final RegistryObject<Item> AMATITE_SHOVEL = ITEMS.register("amatite_shovel",
+            () -> new ShovelItem(ModItemTier.LIRIUM,1.5f, -2.0f,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
+    public static final RegistryObject<Item> AMATITE_AXE = ITEMS.register("amatite_axe",
+            () -> new AxeItem(ModItemTier.LIRIUM,7, -2.0f,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
+    public static final RegistryObject<Item> AMATITE_HOE = ITEMS.register("amatite_hoe",
+            () -> new HoeItem(ModItemTier.LIRIUM,-2, 0f,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    /* End of Amatite Tools */
 
     // Adds the Tools to the eventBus
     public static void register(IEventBus eventBus) {
