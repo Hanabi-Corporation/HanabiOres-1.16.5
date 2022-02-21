@@ -21,6 +21,10 @@
   "item.soetchores.lirium_chestplate": "Lirium Chestplate",
   "item.soetchores.lirium_leggings": "Lirium Leggings",
   "item.soetchores.lirium_boots": "Lirium Boots",
+  "item.soetchores.amatite_helmet": "Amatite Helmet",
+  "item.soetchores.amatite_chestplate": "Amatite Helmet",
+  "item.soetchores.amatite_leggings": "Amatite Helmet",
+  "item.soetchores.amatite_boots": "Amatite Helmet",
 
   "itemGroup.soModTab": "Soetch Ores"
 }

@@ -19,7 +19,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
     }),
     AMATITE("amatite", 18, new int[]{ 5, 7, 9, 5}, 11, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.6f, 0,0f,
             () -> {
-        return Ingredient.fromItems(ModItems.AMATITE_INGOT.get());
+                return Ingredient.fromItems(ModItems.AMATITE_INGOT.get());
     });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

@@ -33,6 +33,20 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterial.LIRIUM, EquipmentSlotType.FEET,
                     new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
 
+    // Amatite Armor
+    public static final RegistryObject<Item> AMATITE_HELMET = ITEMS.register("amatite_helmet",
+            () -> new ArmorItem(ModArmorMaterial.AMATITE, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> AMATITE_CHESTPLATE = ITEMS.register("amatite_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.AMATITE, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> AMATITE_LEGGINGS = ITEMS.register("amatite_leggings",
+            () -> new ArmorItem(ModArmorMaterial.AMATITE, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> AMATITE_BOOTS = ITEMS.register("amatite_boots",
+            () -> new ArmorItem(ModArmorMaterial.AMATITE, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
     /* End of the Armors*/
 
     /* This section registers the Lirium Tools. */
