@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soetchores:amatite_block"
+    }
+  ],
+  "result": {
+    "item": "soetchores:amatite_ingot",
+    "count": 9
+  }
+}

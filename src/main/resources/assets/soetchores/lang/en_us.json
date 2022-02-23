@@ -2,9 +2,12 @@
   "block.soetchores.lirium_ore": "Lirium Ore",
   "block.soetchores.lirium_block": "Lirium Block",
   "block.soetchores.amatite_ore": "Amatite Ore",
+  "block.soetchores.amatite_block": "Amatite Block",
+  "block.soetchores.mayith_ore": "Mayith Ore",
 
   "item.soetchores.lirium_ingot": "Lirium Ingot",
   "item.soetchores.amatite_ingot": "Amatite Ingot",
+  "item.soetchores.mayith_ingot": "Mayith Ingot",
 
   "item.soetchores.lirium_sword": "Lirium Sword",
   "item.soetchores.lirium_pickaxe": "Lirium Pickaxe",
