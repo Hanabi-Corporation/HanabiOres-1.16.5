@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:block",
-          "name": "soetchores:amatite_block"
+          "name": "hanabiores:amatite_block"
         }
       ]
     }

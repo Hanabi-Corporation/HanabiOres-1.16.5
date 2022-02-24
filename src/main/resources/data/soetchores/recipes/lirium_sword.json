@@ -7,13 +7,13 @@
   ],
   "key": {
     "L": {
-      "item": "soetchores:lirium_ingot"
+      "item": "hanabiores:lirium_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "soetchores:lirium_sword"
+    "item": "hanabiores:lirium_sword"
   }
 }

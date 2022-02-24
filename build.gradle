@@ -13,8 +13,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.16.5-1.0'
-group = 'net.soetch.soetchores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'soetchores'
+group = 'net.hanabi.soetch.hanabiores' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'hanabiores'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
@@ -33,7 +33,7 @@ minecraft {
     // Simply re-run your setup task after changing the mappings to update your workspace.
     mappings channel: 'snapshot', version: '20210309-1.16.5'
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
-    
+
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
     // Default run configurations.
@@ -55,7 +55,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                soetchnomodtemplate {
+                hanabinomodtemplate {
                     source sourceSets.main
                 }
             }
@@ -77,7 +77,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                soetchnomod {
+                hanabinomod {
                     source sourceSets.main
                 }
             }
@@ -99,10 +99,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'soetchores', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'hanabiores', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                soetchnomodtemplate {
+                hanabinomodtemplate {
                     source sourceSets.main
                 }
             }
@@ -143,12 +143,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "soetchores",
-            "Specification-Vendor": "soetchoresareus",
+            "Specification-Title": "hanabiores",
+            "Specification-Vendor": "hanabioresareus",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"soetchoressareus",
+            "Implementation-Vendor" :"hanabioressareus",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

@@ -7,13 +7,13 @@
   ],
   "key": {
     "L": {
-      "item": "soetchores:amatite_ingot"
+      "item": "hanabiores:amatite_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "soetchores:amatite_sword"
+    "item": "hanabiores:amatite_sword"
   }
 }

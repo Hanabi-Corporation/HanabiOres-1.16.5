@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "soetchores:lirium_ingot"
+      "item": "hanabiores:lirium_ingot"
     }
   },
   "result": {
-    "item": "soetchores:lirium_boots"
+    "item": "hanabiores:lirium_boots"
   }
 }
