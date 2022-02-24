@@ -16,6 +16,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     public static final RegistryObject<Item> AMATITE_INGOT = ITEMS.register("amatite_ingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> MAYITH_INGOT = ITEMS.register("mayith_ingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     /* End of the Ingots */
 
     /* This section registers the Armors */
@@ -45,6 +47,20 @@ public class ModItems {
                     new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
     public static final RegistryObject<Item> AMATITE_BOOTS = ITEMS.register("amatite_boots",
             () -> new ArmorItem(ModArmorMaterial.AMATITE, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+
+    // Mayith Armor
+    public static final RegistryObject<Item> MAYITH_HELMET = ITEMS.register("mayith_helmet",
+            () -> new ArmorItem(ModArmorMaterial.MAYITH, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> MAYITH_CHESTPLATE = ITEMS.register("mayith_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.MAYITH, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> MAYITH_LEGGINGS = ITEMS.register("mayith_leggings",
+            () -> new ArmorItem(ModArmorMaterial.MAYITH, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
+    public static final RegistryObject<Item> MAYITH_BOOTS = ITEMS.register("mayith_boots",
+            () -> new ArmorItem(ModArmorMaterial.MAYITH, EquipmentSlotType.FEET,
                     new Item.Properties().group(ModItemGroup.SOETCHORES_GROUP)));
 
     /* End of the Armors*/

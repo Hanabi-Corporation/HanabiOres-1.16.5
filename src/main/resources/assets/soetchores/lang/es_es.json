@@ -2,9 +2,12 @@
   "block.soetchores.lirium_ore": "Mineral de Lirium",
   "block.soetchores.lirium_block": "Cuadra de Lirium",
   "block.soetchores.amatite_ore": "Mineral de Amatite",
+  "block.soetchores.amatite_block": "Cuadra de Amatite",
+  "block.soetchores.mayith_ore": "Mineral de Mayith",
 
   "item.soetchores.lirium_ingot": "Lingote de Lirium",
   "item.soetchores.amatite_ingot": "Lingote de Amatite",
+  "item.soetchores.mayith_ingot": "Lingote de Mayith",
 
   "item.soetchores.lirium_sword": "Espada de Lirium",
   "item.soetchores.lirium_pickaxe": "Pico de Lirium",

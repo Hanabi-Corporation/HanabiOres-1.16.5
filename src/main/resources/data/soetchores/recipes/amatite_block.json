@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "soetchores:amatite_ingot"
+    }
+  },
+  "result": {
+    "item": "soetchores:amatite_block"
+  }
+}
