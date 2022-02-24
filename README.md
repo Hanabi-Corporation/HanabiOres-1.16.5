@@ -1,6 +1,6 @@
-# SoetchOres-1.16.5
-## What is Soetch Ores ?
-Soetch Ores is a Minecraft mod adding new Ores (no joke) and Tools / Armors. This mod's base is SNMT 1.16.5 (https://github.com/Soetch/SoetchNoModTemplate-1.16.5).
+# HanabiOres-1.16.5
+## What is Hanabi Ores ?
+Hanabi Ores is a Minecraft mod adding new Ores (no joke) and Tools / Armors. This mod's base is SNMT 1.16.5 (https://github.com/Soetch/SoetchNoModTemplate-1.16.5).
 
 ## Where can I find a release of it ? 
 This project is under development, star it to have the latest infos ! (Those who star get an e-mail when the Mod the released!)
