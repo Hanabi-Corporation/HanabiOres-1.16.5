@@ -18,6 +18,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
     public static final RegistryObject<Item> MAYITH_INGOT = ITEMS.register("mayith_ingot",
             () -> new Item(new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+    public static final RegistryObject<Item> SYPHITE_INGOT = ITEMS.register("syphite_ingot",
+            () -> new Item(new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
     /* End of the Ingots */
 
     /* This section registers the Armors */
@@ -88,25 +90,46 @@ public class ModItems {
     /* End of the Lirium Tools */
     /* This section registers the Amatite Tools. */
     public static final RegistryObject<Item> AMATITE_SWORD = ITEMS.register("amatite_sword",
-            () -> new SwordItem(ModItemTier.LIRIUM,6, -2f,
+            () -> new SwordItem(ModItemTier.AMATITE,6, -2f,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
 
     public static final RegistryObject<Item> AMATITE_PICKAXE = ITEMS.register("amatite_pickaxe",
-            () -> new PickaxeItem(ModItemTier.LIRIUM,1, -2.8f,
+            () -> new PickaxeItem(ModItemTier.AMATITE,1, -2.8f,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
 
     public static final RegistryObject<Item> AMATITE_SHOVEL = ITEMS.register("amatite_shovel",
-            () -> new ShovelItem(ModItemTier.LIRIUM,1.5f, -2.0f,
+            () -> new ShovelItem(ModItemTier.AMATITE,1.5f, -2.0f,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
 
     public static final RegistryObject<Item> AMATITE_AXE = ITEMS.register("amatite_axe",
-            () -> new AxeItem(ModItemTier.LIRIUM,7, -2.0f,
+            () -> new AxeItem(ModItemTier.AMATITE,7, -2.0f,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
 
     public static final RegistryObject<Item> AMATITE_HOE = ITEMS.register("amatite_hoe",
-            () -> new HoeItem(ModItemTier.LIRIUM,-2, 0f,
+            () -> new HoeItem(ModItemTier.AMATITE,-2, 0f,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
     /* End of Amatite Tools */
+    /* This section registers the Mayith Tools.*/
+    public static final RegistryObject<Item> MAYITH_SWORD = ITEMS.register("mayith_sword",
+            () -> new SwordItem(ModItemTier.MAYITH,6, -2f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> MAYITH_PICKAXE = ITEMS.register("mayith_pickaxe",
+            () -> new PickaxeItem(ModItemTier.MAYITH,1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> MAYITH_SHOVEL = ITEMS.register("mayith_shovel",
+            () -> new ShovelItem(ModItemTier.MAYITH,1.5f, -2.0f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> MAYITH_AXE = ITEMS.register("mayith_axe",
+            () -> new AxeItem(ModItemTier.MAYITH,7, -2.0f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> MAYITH_HOE = ITEMS.register("mayith_hoe",
+            () -> new HoeItem(ModItemTier.MAYITH,-2, 0f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+    /* End of Mayith Tools. */
 
     // Adds the Tools to the eventBus
     public static void register(IEventBus eventBus) {
