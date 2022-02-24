@@ -1,9 +1,9 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "item": "soetchores:lirium_ore"
+    "item": "hanabiores:lirium_ore"
   },
-  "result": "soetchores:lirium_ingot",
+  "result": "hanabiores:lirium_ingot",
   "experience": 0.7,
   "cookingtime": 100
 }

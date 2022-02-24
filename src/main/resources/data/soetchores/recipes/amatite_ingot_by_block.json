@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "soetchores:amatite_block"
+      "item": "hanabiores:amatite_block"
     }
   ],
   "result": {
-    "item": "soetchores:amatite_ingot",
+    "item": "hanabiores:amatite_ingot",
     "count": 9
   }
 }

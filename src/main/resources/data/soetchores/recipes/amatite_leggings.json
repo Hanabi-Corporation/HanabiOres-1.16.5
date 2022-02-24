@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "soetchores:amatite_ingot"
+      "item": "hanabiores:amatite_ingot"
     }
   },
   "result": {
-    "item": "soetchores:amatite_leggings"
+    "item": "hanabiores:amatite_leggings"
   }
 }

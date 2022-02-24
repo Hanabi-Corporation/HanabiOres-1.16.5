@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "soetchores:mayith_ore"
+    "item": "hanabiores:mayith_ore"
   },
-  "result": "soetchores:mayith_ingot",
+  "result": "hanabiores:mayith_ingot",
   "experience": 0.2,
   "cookingtime": 200
 }

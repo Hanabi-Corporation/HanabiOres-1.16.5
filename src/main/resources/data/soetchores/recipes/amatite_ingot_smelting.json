@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "soetchores:amatite_ore"
+    "item": "hanabiores:amatite_ore"
   },
-  "result": "soetchores:amatite_ingot",
+  "result": "hanabiores:amatite_ingot",
   "experience": 0.2,
   "cookingtime": 200
 }
