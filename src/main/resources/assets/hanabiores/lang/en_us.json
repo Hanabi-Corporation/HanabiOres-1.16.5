@@ -4,10 +4,13 @@
   "block.hanabiores.amatite_ore": "Amatite Ore",
   "block.hanabiores.amatite_block": "Amatite Block",
   "block.hanabiores.mayith_ore": "Mayith Ore",
+  "block.hanabiores.mayith_block": "Mayith Block",
+  "block.hanabiores.syphite_ore": "Syphite Ore",
 
   "item.hanabiores.lirium_ingot": "Lirium Ingot",
   "item.hanabiores.amatite_ingot": "Amatite Ingot",
   "item.hanabiores.mayith_ingot": "Mayith Ingot",
+  "item.hanabiores.syphite_ingot": "Syphite Ingot",
 
   "item.hanabiores.lirium_sword": "Lirium Sword",
   "item.hanabiores.lirium_pickaxe": "Lirium Pickaxe",
@@ -19,15 +22,24 @@
   "item.hanabiores.amatite_axe": "Amatite Axe",
   "item.hanabiores.amatite_shovel": "Amatite Shovel",
   "item.hanabiores.amatite_hoe": "Amatite Hoe",
+  "item.hanabiores.mayith_sword": "Mayith Sword",
+  "item.hanabiores.mayith_pickaxe": "Mayith Pickaxe",
+  "item.hanabiores.mayith_axe": "Mayith Axe",
+  "item.hanabiores.mayith_shovel": "Mayith Shovel",
+  "item.hanabiores.mayith_hoe": "Mayith Hoe",
 
   "item.hanabiores.lirium_helmet": "Lirium Helmet",
   "item.hanabiores.lirium_chestplate": "Lirium Chestplate",
   "item.hanabiores.lirium_leggings": "Lirium Leggings",
   "item.hanabiores.lirium_boots": "Lirium Boots",
   "item.hanabiores.amatite_helmet": "Amatite Helmet",
-  "item.hanabiores.amatite_chestplate": "Amatite Helmet",
-  "item.hanabiores.amatite_leggings": "Amatite Helmet",
-  "item.hanabiores.amatite_boots": "Amatite Helmet",
+  "item.hanabiores.amatite_chestplate": "Amatite Chestplate",
+  "item.hanabiores.amatite_leggings": "Amatite Leggings",
+  "item.hanabiores.amatite_boots": "Amatite Boots",
+  "item.hanabiores.mayith_helmet": "Mayith Helmet",
+  "item.hanabiores.mayith_chestplate": "Mayith Chestplate",
+  "item.hanabiores.mayith_leggings": "Mayith Leggings",
+  "item.hanabiores.mayith_boots": "Mayith Boots",
 
-  "itemGroup.soModTab": "hanabi Ores"
+  "itemGroup.haModTab": "Hanabi Ores"
 }

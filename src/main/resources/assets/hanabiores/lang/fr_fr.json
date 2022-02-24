@@ -4,10 +4,13 @@
   "block.hanabiores.amatite_ore": "Minerai d'Amatite",
   "block.hanabiores.amatite_block": "Bloc d'Amatite",
   "block.hanabiores.mayith_ore": "Minerai de Mayith",
+  "block.hanabiores.mayith_block": "Bloc de Mayith",
+  "block.hanabiores.syphite_ore": "Minerai de Syphite",
 
   "item.hanabiores.lirium_ingot": "Lingot de Lirium",
   "item.hanabiores.amatite_ingot": "Lingot d'Amatite",
   "item.hanabiores.mayith_ingot": "Lingot de Mayith",
+  "item.hanabiores.syphite_ingot": "Lingot de Syphite",
 
   "item.hanabiores.lirium_sword": "Epée en Lirium",
   "item.hanabiores.lirium_pickaxe": "Pioche en Lirium",
@@ -19,6 +22,11 @@
   "item.hanabiores.amatite_axe": "Hache en Amatite",
   "item.hanabiores.amatite_shovel": "Pelle en Amatite",
   "item.hanabiores.amatite_hoe": "Houe en Amatite",
+  "item.hanabiores.mayith_sword": "Epée en Mayith",
+  "item.hanabiores.mayith_pickaxe": "Pioche en Mayith",
+  "item.hanabiores.mayith_axe": "Hache en Mayith",
+  "item.hanabiores.mayith_shovel": "Pelle en Mayith",
+  "item.hanabiores.mayith_hoe": "Houe en Mayith",
 
   "item.hanabiores.lirium_helmet": "Casque en Lirium",
   "item.hanabiores.lirium_chestplate": "Plastron en Lirium",
@@ -28,6 +36,10 @@
   "item.hanabiores.amatite_chestplate": "Plastron en Amatite",
   "item.hanabiores.amatite_leggings": "Jambières en Amatite",
   "item.hanabiores.amatite_boots": "Bottes en Amatite",
+  "item.hanabiores.mayith_helmet": "Casque en Mayith",
+  "item.hanabiores.mayith_chestplate": "Plastron en Mayith",
+  "item.hanabiores.mayith_leggings": "Jambières en Mayith",
+  "item.hanabiores.mayith_boots": "Bottes en Mayith",
 
-  "itemGroup.soModTab": "hanabi Ores"
+  "itemGroup.haModTab": "Hanabi Ores"
 }
