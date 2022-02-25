@@ -25,7 +25,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
             () -> {
         return Ingredient.fromItems(ModItems.MAYITH_INGOT.get());
     }),
-    SYPHITE("syphite", 22, new int[]{ 9, 11, 13, 9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0f, 0,0f,
+    SYPHITE("syphite", 24, new int[]{ 9, 11, 13, 9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0f, 0,0f,
             () -> {
                 return Ingredient.fromItems(ModItems.SYPHITE_INGOT.get());
     });

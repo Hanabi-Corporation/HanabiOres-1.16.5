@@ -40,6 +40,10 @@
   "item.hanabiores.mayith_chestplate": "Mayith Chestplate",
   "item.hanabiores.mayith_leggings": "Mayith Leggings",
   "item.hanabiores.mayith_boots": "Mayith Boots",
+  "item.hanabiores.syphite_helmet": "Syphite Helmet",
+  "item.hanabiores.syphite_chestplate": "Syphite Chestplate",
+  "item.hanabiores.syphite_leggings": "Syphite Leggings",
+  "item.hanabiores.syphite_boots": "Syphite Boots",
 
   "itemGroup.haModTab": "Hanabi Ores"
 }

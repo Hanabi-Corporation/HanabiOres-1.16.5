@@ -65,6 +65,20 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterial.MAYITH, EquipmentSlotType.FEET,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
 
+    // Syphite Armor
+    public static final RegistryObject<Item> SYPHITE_HELMET = ITEMS.register("syphite_helmet",
+            () -> new ArmorItem(ModArmorMaterial.SYPHITE, EquipmentSlotType.HEAD,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+    public static final RegistryObject<Item> SYPHITE_CHESTPLATE = ITEMS.register("syphite_chestplate",
+            () -> new ArmorItem(ModArmorMaterial.SYPHITE, EquipmentSlotType.CHEST,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+    public static final RegistryObject<Item> SYPHITE_LEGGINGS = ITEMS.register("syphite_leggings",
+            () -> new ArmorItem(ModArmorMaterial.SYPHITE, EquipmentSlotType.LEGS,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+    public static final RegistryObject<Item> SYPHITE_BOOTS = ITEMS.register("syphite_boots",
+            () -> new ArmorItem(ModArmorMaterial.SYPHITE, EquipmentSlotType.FEET,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
     /* End of the Armors*/
 
     /* This section registers the Lirium Tools. */
