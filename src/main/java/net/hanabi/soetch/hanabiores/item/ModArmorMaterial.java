@@ -21,9 +21,13 @@ public enum ModArmorMaterial implements IArmorMaterial {
             () -> {
                 return Ingredient.fromItems(ModItems.AMATITE_INGOT.get());
     }),
-    MAYITH("mayith", 22, new int[]{ 7, 9, 11, 7}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.6f, 0,0f,
+    MAYITH("mayith", 22, new int[]{ 7, 9, 11, 7}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.8f, 0,0f,
             () -> {
         return Ingredient.fromItems(ModItems.MAYITH_INGOT.get());
+    }),
+    SYPHITE("syphite", 22, new int[]{ 9, 11, 13, 9}, 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 1.0f, 0,0f,
+            () -> {
+                return Ingredient.fromItems(ModItems.SYPHITE_INGOT.get());
     });
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};

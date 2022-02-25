@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "hanabiores:mayith_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hanabiores:mayith_shovel"
+  }
+}
