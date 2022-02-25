@@ -40,6 +40,10 @@
   "item.hanabiores.mayith_chestplate": "Plastron en Mayith",
   "item.hanabiores.mayith_leggings": "Jambières en Mayith",
   "item.hanabiores.mayith_boots": "Bottes en Mayith",
+  "item.hanabiores.syphite_helmet": "Casque en Syphite",
+  "item.hanabiores.syphite_chestplate": "Plastron en Syphite",
+  "item.hanabiores.syphite_leggings": "Jambières en Syphite",
+  "item.hanabiores.syphite_boots": "Bottes en Syphite",
 
   "itemGroup.haModTab": "Hanabi Ores"
 }
