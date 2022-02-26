@@ -17,6 +17,9 @@ public enum ModItemTier implements IItemTier {
     }),
     MAYITH(3, 1250, 10f, 6f, 18, () -> {
         return Ingredient.fromItems(ModItems.MAYITH_INGOT.get());
+    }),
+    SYPHITE(3, 1700, 12f, 8f, 20, () -> {
+        return Ingredient.fromItems(ModItems.SYPHITE_INGOT.get());
     });
     /* End of ItemTiers */
 
