@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LL ",
+    "LS ",
+    " S "
+  ],
+  "key": {
+    "L": {
+      "item": "hanabiores:syphite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hanabiores:syphite_axe"
+  }
+}

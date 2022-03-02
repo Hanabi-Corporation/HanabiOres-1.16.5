@@ -144,6 +144,27 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.MAYITH,-2, 0f,
                     new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
     /* End of Mayith Tools. */
+    /* This section registers the Syphite Tools. */
+    public static final RegistryObject<Item> SYPHITE_SWORD = ITEMS.register("syphite_sword",
+            () -> new SwordItem(ModItemTier.SYPHITE,4, -2.4f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> SYPHITE_PICKAXE = ITEMS.register("syphite_pickaxe",
+            () -> new PickaxeItem(ModItemTier.SYPHITE,1, -2.8f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> SYPHITE_SHOVEL = ITEMS.register("syphite_shovel",
+            () -> new ShovelItem(ModItemTier.SYPHITE,1.5f, -3.0f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> SYPHITE_AXE = ITEMS.register("syphite_axe",
+            () -> new AxeItem(ModItemTier.SYPHITE,6, -3.0f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+
+    public static final RegistryObject<Item> SYPHITE_HOE = ITEMS.register("syphite_hoe",
+            () -> new HoeItem(ModItemTier.SYPHITE,-2, 0f,
+                    new Item.Properties().group(ModItemGroup.HANABIORES_GROUP)));
+    /* End of Syphite Tools.*/
 
     // Adds the Tools to the eventBus
     public static void register(IEventBus eventBus) {
